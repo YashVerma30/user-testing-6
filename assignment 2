@@ -1,0 +1,38 @@
+function setup() {
+  createCanvas(350, 600);
+  strokeWeight(3)
+  
+}
+
+function draw() {
+  background(255);
+  
+  let c = color(249,161,28);
+  fill(c);
+  rect( 0,100, 50,50);
+  fill(color(255,0,0)); // red
+  rect(0,450, 50,50);
+  fill(color(35,224,206));
+  rect(0,200, 50,250);
+  rect(50,450, 50,50);
+  rect(50,400, 50,50);
+  fill(color(249,161,28))
+  rect(50,350, 50,50);
+  rect(100,450, 50,50);
+  fill(color(235,224,206));
+  rect(100,200, 50,250);
+  fill(color(235,224,206));
+  rect( 50,150, 100,50);
+  fill(color(249,161,28));
+  rect( 150,150, 50,50);
+  fill(color(35,224,206));
+  rect(150, 200, 150, 300)
+  fill(color(255,0,0));
+  circle( 220, 350, 50)
+  
+  
+  
+  
+  
+  
+}
